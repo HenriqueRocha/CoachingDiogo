@@ -35,9 +35,9 @@ fun floorAtBasement (inputStream: InputStream) : Int{
     return counter
 }
 fun main() {
-    val inputStream = FileInputStream ("input.txt")
-    val floor = calculateFloor (inputStream)
+    val inputStream = FileInputStream("input.txt")
+    val floor = calculateFloor(inputStream)
     println(floor)
-    val counter = floorAt-1 (inputStream)
+    val counter = floorAtBasement(inputStream)
     inputStream.close()
 }
