@@ -17,7 +17,7 @@ fun calculateFloor (inputStream: InputStream) : Int{
     return floor
 }
 
-fun floorAt-1 (inputStream: InputStream) : Int{
+fun floorAtBasement (inputStream: InputStream) : Int{
     var floor = 0
     var counter = 0
     var input = inputStream.read()
