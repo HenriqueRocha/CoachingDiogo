@@ -6,9 +6,10 @@ fun calculateFloor (inputStream: InputStream) : Int{
     var floor = 0
     var input = inputStream.read()
     while(input != -1) {
-        if (input.toChar() == '(') {
+        val ch = input.toChar()
+        if (ch == '(') {
             floor++
-        } else if (input.toChar() == ')') {
+        } else if (ch == ')') {
             floor--
         }
         input = inputStream.read()
